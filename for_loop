@@ -1,0 +1,29 @@
+'''for i in range(ord('A'),ord('Z')):
+    print(ord(chr(i)),end=' ')
+
+for i in range(0,5):
+    for j in range(0,5):
+        print("*",end=' ')
+    print()
+
+for i in range(0,5):
+    for j in range(0,i+1):
+        print("*",end=' ')
+    print()
+
+for i in range(0,5):
+    for j in range(0,i+1):
+        print(i,end=' ')
+    print()
+
+for i in range(97,123):
+    for j in range(97,i+1):
+        print(chr(i),end=' ')
+    print()
+
+for i in range(97,123):
+    for j in range(97,i+1):
+        print(chr(j),end=' ')
+    print()'''
+
+
