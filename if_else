@@ -1,0 +1,50 @@
+'''if(5>10):
+    print('yes')
+else:
+    print('no')
+
+age1=int(input('enter the age1:'))
+age2=int(input('enter the age2:'))
+if(age1>age2):
+    age3=age1+age2
+    print('my age is added:',age3)
+else:
+    age3=age1-age2
+    print('my age is subtracted:',age3)
+
+email=str(input('enter your email id:'))
+passw=str(input('enter your password:'))
+if(email=='ruhetarannum@gmail.com' and passw=='12345'):
+    print("welcome to facebook")
+else:
+    print('login failed')
+
+mail='ruhetarannum@gmail.com'
+pword='12345'
+email=str(input('enter your email id:'))
+passw=str(input('enter your password:'))
+if(email==mail):
+    if(passw==pword):
+        print('login successful')
+    else:
+        print('login unsuccessful due to incorrect password')
+else:
+    print('login unsuccessful due to incorrect email')'''
+
+mail='ruhetarannum@gmail.com'
+pword='12345'
+otp=23456
+email=str(input('enter your email id:'))
+passw=str(input('enter your password:'))
+if(email==mail):
+    if(passw==pword):
+        print('login successful')
+        otpp=int(input('enter otp:'))
+        if(otpp==otp):
+            print('entered correct otp,transaction successful')
+        else:
+            print('transaction failed due to incorrect otp')
+    else:
+        print('login unsuccessful due to incorrect password')
+else:
+    print('login unsuccessful due to incorrect email')
