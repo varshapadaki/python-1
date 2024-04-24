@@ -1,0 +1,17 @@
+#elseif==elif in python
+'''n1=int(input("enter n1:"))
+n2=int(input("enter n2:"))
+if(n1>n2):
+    print(n1,' is greater')
+elif(n2>n1):
+    print(n2,' is greater')
+else:
+    print('both are equal')
+
+n1=int(input("enter n1:"))
+n2=int(input("enter n2:"))
+print('n1 is greater' if n1>n2 else 'n2 is greater' if n2>n1 else 'both are equal')'''
+
+l=21
+n=int(input("enter the number of lemons :"))
+print(((l-n),' lemons are less') if(n<l) else ((n-l)," lemons are extra") if(n>l) else ("correct number of lemons"))
